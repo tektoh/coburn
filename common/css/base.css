@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* ==================================
+FONT SIZE ( YUI - fonts.css )
+
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+================================== */
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font:100%;}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+/* Percentages for font-size
+10px = 77%
+11px = 85%
+12px = 93%
+13px = 100%
+14px = 108%
+15px = 116%
+16px = 123.1%
+17px = 131%
+18px = 138.5%
+19px = 146.5%
+20px = 153.9%
+21px = 161.6%
+22px = 167%
+23px = 174%
+24px = 182%
+25px = 189%
+26px = 197% */
+
+
+/* ==================================
+BODY
+================================== */
+body {
+	line-height: 1.6;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",arial,helvetica,clean,sans-serif;
+	color: #444444;
+}
+a {
+	color: #444444;
+	text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+	color: #d19403;
+	text-decoration: none;
+}
+.linkcolor{
+	color: #d19403;
+	}
+h1,h2,h3,h4,h5,h6,strong {
+	font-weight: bold;
+}
+.red{
+	color:#F00;
+	}
+.center{
+	text-align:center;
+	}
+
+/* ==================================
+CLEAR
+================================== */
+.clear {
+	clear: both;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix {
+	zoom:1;
+}
+*:first-child+html .clearfix {
+	zoom:1;
+}

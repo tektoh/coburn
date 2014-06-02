@@ -1,0 +1,324 @@
+@charset "utf-8";
+
+/*-----------------------------------
+global navi
+-----------------------------------*/
+.globalnavi{
+	margin-bottom:10px;
+	}
+
+/*-----------------------------------
+breadcrumb
+-----------------------------------*/
+.breadcrumb{
+	width:1000px;
+	margin:0 auto;
+	margin-bottom:30px;
+	}
+.breadcrumb:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.breadcrumb li{
+	float:left;
+	font-size:12px;
+	}
+.breadcrumb li.home{
+	background-image: url(../img/common/P_home.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:18px;
+	margin-right:10px;
+	}
+/*-----------------------------------
+content
+-----------------------------------*/
+.content{
+	width:1000px;
+	margin:0 auto;
+	}
+.content:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.content h2{
+	margin-bottom:40px;
+	}
+
+/*-----------------------------------
+blogarea
+-----------------------------------*/
+.blogarea{
+	float:left;
+	}
+.bloglist{
+	border-top:dotted 1px #ccc;
+	padding-top:30px;
+	padding-bottom:24px;
+	width:720px;
+	}
+.bloglist:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.bloglist .blogimage{
+	float:left;
+	margin-right:30px;
+}
+.bloglist .time{
+	font-size:12px;
+	margin-bottom:15px;
+}
+.bloglist .blogtitle{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:26px;
+	}
+.pagenavi{
+	width:560px;
+	margin:0 auto;
+	padding-top:50px;
+	margin-bottom:80px;
+	}
+.pagenavi:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.pagenavi li{
+	float:left;
+	border-radius: 5px;
+	border:solid 1px #ededed;
+	padding:5px 10px;
+	margin-right:5px;
+	}
+.pagenavi .prev,
+.pagenavi .next,
+.pagenavi .gray{
+	background-color:#eeecec;
+	}
+.pagenavi .next{
+	margin-right:0;
+	}
+/*-----------------------------------
+sidearea
+-----------------------------------*/
+.sidearea{
+	float:right;
+	}
+.category,
+.archive{
+	margin-bottom:30px;
+	}
+.category ul li,
+.archive ul li{
+	background:url(../img/common/list_icon.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-bottom:dotted 1px #CCCCCC;
+	}
+.facebook{
+}
+/*-----------------------------------
+blogkobetu
+-----------------------------------*/
+.blogkobetu{
+	width:720px;
+	float:left;
+	margin-bottom:80px;
+	}
+.blogkobetu .text p{
+	margin-bottom:1.5em;
+	}
+.blogkobetu .time{
+	font-size:12px;
+}
+.blogkobetu h3{
+	font-size:26px;
+	font-weight:bold;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	border-bottom:solid 1px #CCCCCC;
+	}
+.blogkobetu .sns{
+	padding-top:16px;
+	padding-bottom:12px;
+	border-bottom:solid 1px #CCCCCC;
+	margin-bottom:30px;
+	text-align:right;
+	}
+.blogkobetu .citation{
+	background:url(../img/common/citationA.gif)no-repeat 15px 15px,url(../img/common/citationB.gif)no-repeat  right 15px bottom 15px,#f5f5f5;
+	padding: 60px 15px;
+	margin-bottom:20px;
+	}
+.blogkobetu .citation p{
+	margin-bottom:0;
+	font-style:oblique;
+	}
+/*-----------------------------------
+related
+-----------------------------------*/
+.related{
+	width:720px;
+	margin-bottom:80px;
+	}
+.related:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.related h3{
+	border-bottom:solid 1px #ccc;
+	padding-bottom:10px;
+	}
+.related .blogbox{
+	padding-bottom:30px;
+	border-bottom:dotted 1px #ccc;
+	}
+.related .blogbox:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.related .blogimage{
+	float:left;
+	padding-right:20px;
+	}
+.related .blogimage img{
+	width:150px;
+	height:130px;
+	}
+.related .right{
+	float:right;
+	width:160px;
+	}
+.related .right .time{
+	font-size:12px;
+	margin-bottom:10px;
+	}
+.related .right .blogtitle{
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:20px;
+	}
+.related .no1{
+	padding-top:30px;
+	padding-right:30px;
+	border-right:dotted 1px #ccc;
+	float:left;
+	}
+.related .no2{
+	float:right;
+	padding-top:30px;
+	padding-left:29px;
+	}
+.related .no3{
+	padding-top:30px;
+	padding-right:30px;
+	border-right:dotted 1px #ccc;
+	float:left;
+	}
+.related .no4{
+	padding-top:30px;
+	float:right;
+	padding-left:29px;
+	}
+/*-----------------------------------
+comment
+-----------------------------------*/
+.comment{
+	width:720px;
+	margin-bottom:100px;
+	}
+.comment h3{
+	border-bottom:solid 1px #ccc;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	}
+.commentform dl:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.commentform dl dt{
+	float:left;
+	width:100px;
+	margin-right:20px;
+	font-weight:bold;
+	margin-bottom:20px;
+	}
+.commentform .formA{
+	border:0;
+	padding:5px;
+	color:#aaa;
+	border:solid 1px #ccc;
+	width:400px;
+	margin-bottom:20px;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+	-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	}
+.commentform .formB{
+	border:0;
+	padding:5px;
+	color:#aaa;
+	border:solid 1px #ccc;
+	width:600px;
+	height:100px;
+	margin-bottom:20px;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+	-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	}
+.comment .submit{
+	background:none;
+	border:solid 1px #999999;
+	width:100px;
+	border-radius: 5px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #cacece), color-stop(0.00, #f6f7f7));
+background: -webkit-linear-gradient(top, #f6f7f7 0%, #cacece 100%);
+background: -moz-linear-gradient(top, #f6f7f7 0%, #cacece 100%);
+background: -o-linear-gradient(top, #f6f7f7 0%, #cacece 100%);
+background: -ms-linear-gradient(top, #f6f7f7 0%, #cacece 100%);
+background: linear-gradient(top, #f6f7f7 0%, #cacece 100%);
+	}
