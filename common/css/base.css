@@ -37,6 +37,9 @@ body {
 	line-height: 1.6;
 	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",arial,helvetica,clean,sans-serif;
 	color: #444444;
+	background:url(../img/common/bg.png);
+	background-repeat:no-repeat;
+	background-position:right -100px top 0px;
 }
 a {
 	color: #444444;

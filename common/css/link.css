@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*-----------------------------------
+global navi
+-----------------------------------*/
+.globalnavi{
+	margin-bottom:10px;
+	}
+/*-----------------------------------
+breadcrumb
+-----------------------------------*/
+.breadcrumb{
+	width:1000px;
+	margin:0 auto;
+	margin-bottom:30px;
+	}
+.breadcrumb:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.breadcrumb li{
+	float:left;
+	font-size:12px;
+	}
+.breadcrumb li.home{
+	background-image: url(../img/common/P_home.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left:18px;
+	margin-right:10px;
+	}
+/*-----------------------------------
+content
+-----------------------------------*/
+.content{
+	width:1000px;
+	margin:0 auto;
+	}
+.content:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.content h2{
+	margin-bottom:30px;
+	}
+/*-----------------------------------
+linkcontent
+-----------------------------------*/
+.linkcontent{
+	width:700px;
+	margin:0 auto;
+	margin-bottom:100px;
+}
+.linkcontent p{
+	margin-bottom:30px;
+	}
+.linkcontent ul li{
+	text-align:center;
+	margin-bottom:40px;
+	padding-bottom:40px;
+	font-weight:bold;
+	font-size:14px;
+	background:url(../img/link/listicon.gif);
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	}
+.linkcontent ul li:last-child{
+	background:none;
+	}
