@@ -131,7 +131,7 @@ BODY
 ================================== */
 body {
 	line-height: 1.6;
-	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",arial,helvetica,clean,sans-serif;
+	font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"MS Pゴシック",arial,helvetica,clean,sans-serif;
 	color: #444444;
 	background:url(common/img/common/bg.png);
 	background-repeat:no-repeat;
@@ -244,11 +244,11 @@ h1{
 	height:30px;
 	background-color:inherit;
 	background-repeat: no-repeat;
-	}
+}
 /*-----------------------------------
 global navi
 -----------------------------------*/
-.globalnavi{
+.globalnavi {
 	border-top:solid 5px #333333;
 	border-bottom:solid 1px #333333;
 	padding-top:10px;
@@ -256,11 +256,11 @@ global navi
 	width:1000px;
 	margin:0 auto;
 	margin-bottom:30px;
-	}
+}
 .globalnavi ul{
 	width:350px;
 	margin:0 auto;
-	}
+}
 .globalnavi ul:after {
 	visibility: hidden;
 	display: block;
@@ -269,46 +269,63 @@ global navi
 	clear: both;
 	height: 0;
 }
-.globalnavi ul li{
+.globalnavi ul li {
 	float: left;
-	background-image: url(common/img/common/navi_list.gif);
+	background-image: url(common/img/common/navi_list.png);
 	background-repeat: no-repeat;
 	background-position: right center;
-	}
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+.globalnavi ul li:last-child {
+	float: left;
+	background-image: url(common/img/common/navi_list.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-left: 10px;
+	padding-right: 20px;
+	background: none;
+}
 .globalnavi ul li.navi01{
 	width:60px;
 	padding-left:10px;
-	}
+}
 .globalnavi ul li.navi02{
 	width:50px;
 	padding-left:10px;
-	}
+}
 .globalnavi ul li.navi03{
 	width:60px;
 	padding-left:10px;
-	}
+}
 .globalnavi ul li.navi04{
 	width:48px;
 	padding-left:10px;
-	}
+}
 .globalnavi ul li.navi05{
 	width:55px;
 	padding-left:10px;
 	background:none;
-	}
+}
 
 /*-----------------------------------
 main image
 -----------------------------------*/
-.mainimage{
+.mainimage {
 	width:1000px;
 	margin:0 auto;
 	margin-bottom:50px;
-	}
-.mainimage p{
+}
+.mainimage p {
 	padding:2px;
 	border:solid 1px #ccc;
-	}
+}
+.mainimage img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
 /*-----------------------------------
 blog
 -----------------------------------*/
@@ -455,13 +472,13 @@ news facebook
 /*-----------------------------------
 footer
 -----------------------------------*/
-.subnavi{
+.subnavi {
 	background-color:#f4f4f4;
-	}
+}
 .subnavi ul{
 	width:270px;
 	margin:0 auto;
-	}
+}
 .subnavi ul:after {
 	visibility: hidden;
 	display: block;
@@ -470,19 +487,19 @@ footer
 	clear: both;
 	height: 0;
 }
-.subnavi ul li{
+.subnavi ul li {
 	float:left;
 	border-right:solid 1px #CCCCCC;
 	padding-right:10px;
 	margin-top:10px;
 	margin-bottom:10px;
 	margin-right:10px;
-	}
-.subnavi ul li:last-child{
+}
+.subnavi ul li:last-child {
 	border-right:none;
 	margin-right:0;
-	}
-.copy{
+}
+.copy {
 	text-align:center;
 	padding-top:10px;
 	padding-bottom:10px;
