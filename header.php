@@ -40,6 +40,7 @@
 					<img src="<?php bloginfo('template_directory'); ?>/common/img/common/logo.gif" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
 				</a>
 			</h1>
+			<?php get_search_form(); ?>
 		</hgroup>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
